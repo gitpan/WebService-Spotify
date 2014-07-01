@@ -32,10 +32,9 @@ my %WriteMakefileArgs = (
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
-    "Test::Most" => 0,
-    "Try::Tiny" => 0
+    "Test::Most" => 0
   },
-  "VERSION" => "1.000",
+  "VERSION" => "1.001",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -51,7 +50,6 @@ my %FallbackPrereqs = (
   "Method::Signatures" => 0,
   "Moo" => 0,
   "Test::Most" => 0,
-  "Try::Tiny" => 0,
   "URI::QueryParam" => 0,
   "strict" => 0,
   "warnings" => 0

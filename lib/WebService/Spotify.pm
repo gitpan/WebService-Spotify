@@ -6,7 +6,7 @@ use URI::QueryParam;
 use JSON;
 use Data::Dumper;
 
-our $VERSION = '1.000';
+our $VERSION = '1.001';
 
 has 'prefix' => ( is => 'rw', default => 'https://api.spotify.com/v1/' );
 has 'auth'   => ( is => 'rw' );
@@ -205,7 +205,7 @@ returns a single album given the album's ID, URN or URL
 
 =head2 album_tracks ($album_id)
 
-Get Spotify catalog information about an album’s tracks
+Get Spotify catalog information about an album's tracks
 
 =head2 albums (\@albums)
 

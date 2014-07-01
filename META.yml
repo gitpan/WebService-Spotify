@@ -26,4 +26,4 @@ requires:
   warnings: 0
 resources:
   repository: https://github.com/nicklangridge/WebService-Spotify
-version: 1.001
+version: 1.002
